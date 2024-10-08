@@ -77,18 +77,6 @@ pip install -r requirements.txt
    ```bash
    git clone https://github.com/Huzaif2309/Food-Review-Sentiment-Analysis.git
    cd Food-Review-Sentiment-Analysis
-## Setup
-
-1. **Download the dataset**:  
-   Download the Amazon Food Reviews dataset from Kaggle and place it in the `data/` folder.
-
-2. **Preprocess the dataset**:  
-   Preprocessing involves cleaning the text, handling missing values, and splitting the data for training and testing.
-
-3. **Run the VADER analysis**:  
-   The VADER analysis can be done using the provided Jupyter notebook:
-   ```bash
-   jupyter notebook vader_sentiment_analysis.ipynb
 ## Results
 
 | Model   | Accuracy | Precision | Recall | F1 Score |
@@ -102,4 +90,3 @@ pip install -r requirements.txt
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-
